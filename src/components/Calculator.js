@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import '../styles/Calculator.css';
 
 const Calculator = () => {
-  const [result, setResult] = useState('');
+  const [result, setResult] = useState('0');
 
   const btnClick = (e) => {
-    setResult(result + e.target.value);
+    const { value } = e.target;
+    setResult(result === '0' ? value : result + value);
   };
 
   const calculate = () => {
