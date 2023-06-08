@@ -5,7 +5,7 @@ const Calculator = () => {
   const [result, setResult] = useState('0');
 
   const btnClick = (e) => {
-    const { value } = e.target;
+    const value = e.target.value;
     setResult(result === '0' ? value : result + value);
   };
 
