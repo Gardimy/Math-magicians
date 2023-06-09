@@ -9,10 +9,13 @@ const Calculator = () => {
     operation: null,
   });
 
+  const [calculationHistory, setCalculationHistory] = useState([]);
+
   const handleClick = (event) => {
     const buttonName = event.target.value;
     const newData = calculate(calculatorData, buttonName);
     setCalculatorData(newData);
+    setCalculationHistory([...calculationHistory, buttonName]);
   };
 
   const clear = () => {
@@ -21,9 +24,12 @@ const Calculator = () => {
       next: null,
       operation: null,
     });
+    setCalculationHistory([]);
   };
 
-  const displayValue = calculatorData.next || calculatorData.total || '0';
+  const displayValue = calculatorData.next
+    ? `${calculatorData.total || ''} ${calculatorData.operation || ''} ${calculatorData.next}`
+    : calculatorData.total || '0';
 
   return (
     <div className="calculator">
