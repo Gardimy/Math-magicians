@@ -73,6 +73,50 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running cloning this repo `https://github.com/Gardimy/Math-magicians`.
+
+### Prerequisites
+
+There are no known prerequisites to run this project.
+If you encounter any issues trying to run it, please feel free to
+[open a ticket](https://github.com/Gardimy/JavaScript_capstone/issues) to let me know and i will work on it to the best
+of my abilities
+
+### Setup
+
+Clone this repository to your desired folder:
+
+`https://github.com/Gardimy/Math-magicians`
+
+or
+
+`https://github.com/Gardimy/Math-magicians` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
+
+### Usage
+
+To run the project:
+
+- Method 1:
+
+```sh
+  cd PATH_TO_CLONE
+  npm install
+  npm run build
+  npm start
+```
+
+Method 2:
+Open './dist/index.html' in your browser of choice
+
+### Deployment
+
+You can deploy this project using [github pages](https://docs.github.com/en/pages/quickstart)
+or a web-hosting platform of your choice.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
