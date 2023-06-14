@@ -3,7 +3,7 @@ import '../styles/Quote.css';
 
 function Quotecomponent() {
   const [data, setData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
   const fetchData = async () => {
@@ -29,7 +29,7 @@ function Quotecomponent() {
     } catch (error) {
       setError(true);
     } finally {
-      setIsLoading(false);
+      setLoading(false);
     }
   };
 
@@ -37,7 +37,7 @@ function Quotecomponent() {
     fetchData();
   }, []);
 
-  if (isLoading) {
+  if (loading) {
     return (
       <div className="Quote">
         <p className="quote">Loading...</p>
