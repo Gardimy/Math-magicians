@@ -4,9 +4,9 @@ import '../styles/Home.css';
 function HomePage() {
   return (
     <div className="home">
-      <h2>
+      <h3>
         Welcome to our page!
-      </h2>
+      </h3>
       <p className="Para">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Odit aspernatur vero cumque laudantium unde quibusdam,
