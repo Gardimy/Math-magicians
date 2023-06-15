@@ -58,6 +58,7 @@ function Quotecomponent() {
       <h1 className="Description">Quote</h1>
       <p className="quote">{data.quote}</p>
       <p className="author">{data.author}</p>
+      <p className="category">{data.category}</p>
     </div>
   );
 }
