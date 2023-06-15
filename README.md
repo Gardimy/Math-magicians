@@ -1,15 +1,11 @@
-<!-- # React-app
+# Math-magicians
 <br>
 <div align='center'>
-	<h1> math-magicians: Setup</h1>
-
+	<h1>React Rounter</h1>
   </div>
 <a name="readme-top"></a>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
-
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -23,11 +19,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 math-magicians! <a name="about-project"></a>
 
-**math-magicians!** This project is to learn the basics of react, by starting to create the setup.
+**math-magicians!** I create a full website for the Math magicians app, consisting of several pages and using the components I already created.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
