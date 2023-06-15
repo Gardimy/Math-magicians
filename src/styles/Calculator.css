@@ -3,10 +3,19 @@
   justify-content: center;
   flex-direction: column;
   width: 350px;
-  margin: 0 auto;
-  margin-top: 85px;
+  margin: 0 730px;
   border: 1px solid #ccc;
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+  margin: 0;
+  margin-top: 30px;
+  margin-left: 135px;
+}
+
+.cal h2 {
+  margin-top: 30px;
 }
 
 .calculator input[type="text"] {
