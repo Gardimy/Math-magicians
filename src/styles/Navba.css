@@ -1,5 +1,4 @@
 * {
-  font-family: 'lato';
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -17,7 +16,7 @@
 
 h1 {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 600;
   color: #333;
   margin-right: 20px;
 }
@@ -28,15 +27,11 @@ h1 {
   align-items: center;
 }
 
-.Navbar {
-  list-style: none;
-}
-
 .Navbar a.active {
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   color: #555;
   transition: color 0.3s ease;
 }
