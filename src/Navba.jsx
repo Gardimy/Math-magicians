@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './styles/Navba.css';
 
 const Navbar = () => (
   <div className="NavBarContainer">
     <h1>Math Magicians </h1>
     <nav className="Navbar">
-      <Link to="/">Home</Link>
-      <Link to="/Calculator">Calculator</Link>
-      <Link to="/Quote">Quote</Link>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/Calculator">Calculator</NavLink>
+      <NavLink to="/Quote">Quote</NavLink>
     </nav>
   </div>
 );
