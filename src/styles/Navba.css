@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.NavBarContainer {
+  width: 80%;
+  margin: 5px auto;
+  padding: 20px;
+  display: flex;
+  background-color: azure;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-right: 20px;
+}
+
+.Navbar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.Navbar a.active {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #555;
+  transition: color 0.3s ease;
+}
