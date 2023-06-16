@@ -1,5 +1,5 @@
-import operate from '../logic/operate';
 import '@testing-library/jest-dom/extend-expect';
+import operate from '../logic/operate';
 
 describe('operate', () => {
   it('should perform addition correctly', () => {
