@@ -1,5 +1,4 @@
 * {
-  font-family: 'Courier New', Courier, monospace;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,7 +6,7 @@
 
 .NavBarContainer {
   width: 80%;
-  margin: 10px auto;
+  margin: 5px auto;
   padding: 20px;
   display: flex;
   background-color: azure;
@@ -17,7 +16,7 @@
 
 h1 {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 600;
   color: #333;
   margin-right: 20px;
 }
@@ -28,24 +27,10 @@ h1 {
   align-items: center;
 }
 
-.Navbar li {
-  list-style: none;
-}
-
-.NavBar a {
+.Navbar a.active {
   text-decoration: none;
-  font-size: 18px;
   font-weight: bold;
+  font-size: 18px;
   color: #555;
   transition: color 0.3s ease;
-}
-
-.NavBar a:hover {
-  color: #333;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #ccc;
-  margin: 10px 0;
 }

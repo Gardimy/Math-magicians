@@ -1,7 +1,7 @@
-# Math-magicians
+# Math-magicians:tests
 <br>
 <div align='center'>
-	<h1>React Rounter</h1>
+	<h1>Math-magicians</h1>
   </div>
 <a name="readme-top"></a>
 
@@ -22,7 +22,7 @@
 
 # 📖 math-magicians! <a name="about-project"></a>
 
-**math-magicians!** I create a full website for the Math magicians app, consisting of several pages and using the components I already created.
+**math-magicians!** I create a full website for the Math magicians app, consisting of several pages and using the components I already created. I write unit tests for the Math Magicians app, using the Jest and React Testing Library libraries
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
